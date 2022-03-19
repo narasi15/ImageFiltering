@@ -17,8 +17,18 @@ An application that places different filters and functions on any image. There a
   >![splashpage](/images/dog_blur.bmp)
 
 ## How to use:
-``` make all 
-    make test
+Download the repo in your local directory, and run the Makefile with following commands:
+```make all
 ```
-
+Make all will create the executables of each filter/function.
+```make test
+```
+Make test will do the following 
+mkdir -p images
+	./copy < dog.bmp > images/dog_copy.bmp
+	./greyscale < dog.bmp > images/dog_grey.bmp
+	./scale 2 < dog.bmp > images/dog_scale.bmp
+	./gaussian_blur < dog.bmp > images/dog_blur.bmp
+	./edge_detection < dog.bmp > images/dog_edge.bmp
+	./image_filter dog.bmp images/dog_piped.bmp
 
