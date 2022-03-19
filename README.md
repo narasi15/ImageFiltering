@@ -7,7 +7,7 @@ An application that places different filters and functions on any image. There a
 
 ## Filters
  * greyscale: Creates a black and white image.
-  > ![splashpage](dog.bmp)
+  > ![splashpage](dog.bmp) ![splashpage](dog_grey.bmp)
  * edge detection: Finds the boundaries of objects within the image.
   > ![splashpage](dog.bmp)
  * gaussian blur: Blurs the image by a Gaussian function. 
