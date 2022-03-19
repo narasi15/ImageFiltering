@@ -16,4 +16,9 @@ An application that places different filters and functions on any image. There a
   >![splashpage](dog.bmp)
   >![splashpage](/images/dog_blur.bmp)
 
+## How to use:
+``` make all 
+    make test
+```
+
 
