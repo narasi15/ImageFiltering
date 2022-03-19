@@ -1,0 +1,3 @@
+Instructions:
+- Run the make file, make all, make test, 
+- look in the images folder
