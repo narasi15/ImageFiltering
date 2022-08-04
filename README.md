@@ -17,7 +17,7 @@ An application that places different filters and functions on any image. There a
   >![splashpage](/images/dog_blur.bmp)
 
 ## How to use:
-Download the repo in your local directory, and run the Makefile with following commands:
+Download the repo in your local directory, delete the images folder, and run the Makefile with following commands:
 ```
 make clean
 ```
